@@ -1,1 +1,1 @@
-web: java -cp target/classes:target/dependency/* edu.eci.arep.httpserver.HttpServer
+web: java -cp target/classes:target/dependency/*  edu.eci.arep.nanosparkweb.demo.NanoSparkWebDemo
