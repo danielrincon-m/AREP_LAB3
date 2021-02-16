@@ -28,15 +28,15 @@ con la segunda fase, en donde realizamos una aplicación web funcional utilizand
 
 #### Segunda Fase
 
-Nuestra aplicación web se basa en el registro de usuarios con sus datos básicos (nombre, documento, dirección y teléfono),
-estos registros se realizan en una base de datos de manera asíncrona por medio de JavaScript, y esta fase cuenta con dos partes:
+Nuestra aplicación web es un simple registro de usuarios, en donde ponen sus datos básicos (nombre, documento, dirección y teléfono),
+estos registros se realizan en una base de datos PostgreSQL de manera asíncrona por medio de JavaScript. La aplicación consta de dos partes:
 
 - Un formulario de inscripción de usuarios el cual se puede consultar [aquí.](https://nanospark.herokuapp.com/Apps/register)
 - Una página web en donde se pueden consultar los usuarios registrados hasta el momento, la cual se puede consultar
 [aquí](https://nanospark.herokuapp.com/Apps/get)
 
-Así finaliza la prueba de concepto, todos los servicios web están corriendo sobre nuestro mini framework, como pudimos
-observar, ya se encuentra en una etapa bastante funcional, y ya se encuentra preparado para correr aplicaciones más complejas.
+De esta forma finaliza nuestra prueba de concepto, todos los servicios web están corriendo sobre el mini framework "NanoSpark". Como pudimos
+observar ya se encuentra en una etapa bastante funcional, y está preparado para correr aplicaciones más complejas.
 
 ### Cómo utilizar el programa
 
@@ -45,7 +45,7 @@ como esta:
 
 ![Pantalla Registro](img/PantallaRegistro.jpg)
 
-✔️ Esta pantalla contiene un formulario en donde el usuario que se quiera registrar a la aplicación debe ingresar sus
+✔️ Esta pantalla contiene un formulario en donde el usuario que se quiera registrar en la aplicación debe ingresar sus
 datos básicos: Nombre, Documento, Teléfono y Dirección.
 
 ✔️ Una vez ingresados los datos personales podremos registrarnos dándole click al botón de registrar 
@@ -53,6 +53,8 @@ datos básicos: Nombre, Documento, Teléfono y Dirección.
 
 ✔️ Luego de un breve periodo de tiempo recibiremos una notificación, y nos habremos registrado exitosamente
 en la aplicación.
+
+--
 
 Luego de esto nos gustaría verificar si efectivamente quedamos registrados, para ello, podremos ir a la
 [página de consulta](https://nanospark.herokuapp.com/Apps/get), en donde nos encontraremos una pantalla como esta:
@@ -113,6 +115,8 @@ El documento de diseño del programa puede ser encontrado [aquí](Lab2_AREP.pdf)
 * [Maven](https://maven.apache.org/) - Manejo de Dependencias
 * [JUnit](https://junit.org/junit4/) - Pruebas unitarias
 * [GitHub](https://github.com/) - Repositorio de código
+* [Mime-Types](https://github.com/jshttp/mime-types) - Herramienta de consulta de MimeTypes
+* [PostgreSQL](https://www.postgresql.org/) - Base de datos
 
 ## Autor 🧔
 
@@ -133,5 +137,4 @@ para más detalles.
 -->
 
 [gitLink]: https://git-scm.com/downloads
-[statsCalculator]: https://statscalculator.herokuapp.com/calculator/
 [mvnLink]: https://maven.apache.org/download.cgi
