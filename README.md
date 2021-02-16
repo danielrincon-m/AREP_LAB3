@@ -105,7 +105,7 @@ mvn javadoc:javadoc
 
 ## Documento de diseño 📄
 
-El documento de diseño del programa puede ser encontrado [aquí](Lab2_AREP.pdf).
+El documento de diseño del programa puede ser encontrado [aquí](Lab3_AREP.pdf).
 
 ## Herramientas utilizadas 🛠️
 
