@@ -3,7 +3,7 @@
 [![danielrincon-m](https://circleci.com/gh/danielrincon-m/AREP_LAB3.svg?style=svg)](https://app.circleci.com/pipelines/github/danielrincon-m/AREP_LAB3)
 [![Heroku](img/heroku_long.png)](https://nanospark.herokuapp.com/Apps/register)
 
-## Descripción 🌎
+## Descripción 🎇
 
 NanoSpark es un framework web liviano que nos permite desplegar páginas web de manera sencilla y con muy pocas lineas de código,
 además nos brinda la posibilidad de ver cualquier tipo de archivo en el navegador gracias a su amplia base de datos de
