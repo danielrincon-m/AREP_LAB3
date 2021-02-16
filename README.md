@@ -6,26 +6,62 @@
 ## Descripción 🌎
 
 NanoSpark es un framework web liviano que nos permite desplegar páginas web de manera sencilla y con muy pocas lineas de código,
-además nos brinda la posibilidad de ver cualquier tipo de archivos en el navegador. 
+además nos brinda la posibilidad de ver cualquier tipo de archivo en el navegador gracias a su amplia base de datos de
+códigos MimeType. 
 
-### Ubicación
+### Prueba de concepto
 
+La prueba de concepto del Framework se divide en dos fases:
 
-La página de prueba de concepto se puede encontrar en el siguiente enlace: [Calculadora Estadística][statsCalculator]
+#### Primera Fase
+
+Esta fase trata de mostrar la capacidad del servidor web de devolver recursos estáticos de varios tipos al cliente, 
+para esto, a continuación daremos varios ejemplos de archivos estáticos alojados en el servidor.
+
+- **Imagen / ico**: [Imagen en formato .ico](https://nanospark.herokuapp.com/favicon.ico)
+- **Imagen / png**: [Imagen en formato .png](https://nanospark.herokuapp.com/static/img/future.png)
+- **Script / JavaScript**: [Archivo de texto en formato .js](https://nanospark.herokuapp.com/static/js/get.js)
+- **Script / css**: [Archivo de texto en formato .css](https://nanospark.herokuapp.com/static/css/main.css)
+
+Una vez confirmamos que nuestro servidor web era capaz de devolverle al cliente archivos de cualquier tipo al cliente, continuamos
+con la segunda fase, en donde realizamos una aplicación web funcional utilizando nuestro Framework.
+
+#### Segunda Fase
+
+Nuestra aplicación web se basa en el registro de usuarios con sus datos básicos (nombre, documento, dirección y teléfono),
+estos registros se realizan en una base de datos de manera asíncrona por medio de JavaScript, y esta fase cuenta con dos partes:
+
+- Un formulario de inscripción de usuarios el cual se puede consultar [aquí.](https://nanospark.herokuapp.com/Apps/register)
+- Una página web en donde se pueden consultar los usuarios registrados hasta el momento, la cual se puede consultar
+[aquí](https://nanospark.herokuapp.com/Apps/get)
+
+Así finaliza la prueba de concepto, todos los servicios web están corriendo sobre nuestro mini framework, como pudimos
+observar, ya se encuentra en una etapa bastante funcional, y ya se encuentra preparado para correr aplicaciones más complejas.
 
 ### Cómo utilizar el programa
 
-Al abrir el sitio web nos encontraremos con una pantalla como esta:
+Al abrir el [sitio web de registro](https://nanospark.herokuapp.com/Apps/register) nos encontraremos con una pantalla 
+como esta:
 
-![Pantalla Principal](/img/PantallaPrincipal.jpg)
+![Pantalla Registro](img/PantallaRegistro.jpg)
 
-✔️ Esta pantalla contiene un campo de mensajes por parte de la aplicación, un campo para el ingreso de números y un botón de envío de datos. 
+✔️ Esta pantalla contiene un formulario en donde el usuario que se quiera registrar a la aplicación debe ingresar sus
+datos básicos: Nombre, Documento, Teléfono y Dirección.
 
-✔️ Debemos escribir los números de los cuales deseamos calcular la **Media** y la **Desviación Estándar** en el campo marcado como "Números", estos números irán separados por coma y su separador decimal es el punto. 
+✔️ Una vez ingresados los datos personales podremos registrarnos dándole click al botón de registrar 
+(si no llenamos todos los campos, no nos permitirá registrarnos).
 
-✔️ Una vez ingresados los números presionamos el botón *SUBMIT* y si el formato de los datos es correcto, en la parte inferior de la calculadora aparecerán los resultados retornados. 
+✔️ Luego de un breve periodo de tiempo recibiremos una notificación, y nos habremos registrado exitosamente
+en la aplicación.
 
-✔️ Si el formato de los datos es incorrecto la calculadora lo detectará y enviará un mensaje de error al respecto.
+Luego de esto nos gustaría verificar si efectivamente quedamos registrados, para ello, podremos ir a la
+[página de consulta](https://nanospark.herokuapp.com/Apps/get), en donde nos encontraremos una pantalla como esta:
+
+![Pantalla Consulta](img/PantallaConsulta.jpg)
+
+✔️ Se trata de una pantalla informativa en donde podremos ver todos los usuarios que se han registrado en la aplicación. 
+
+✔️ Si todo salió bien, deberías poder ver tu nombre en esta pantalla.
 
 ## Cómo obtener el proyecto 📥
 
