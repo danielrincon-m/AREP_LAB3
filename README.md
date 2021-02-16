@@ -1,16 +1,17 @@
-# Calculadora Estadística
+# NanoSpark
 
-[![<ORG_NAME>](https://circleci.com/gh/danielrincon-m/AREP_LAB2.svg?style=svg)](https://app.circleci.com/pipelines/github/danielrincon-m/AREP_LAB2)
+[![danielrincon-m](https://circleci.com/gh/danielrincon-m/AREP_LAB3.svg?style=svg)](https://app.circleci.com/pipelines/github/danielrincon-m/AREP_LAB3)
+[![Heroku](img/heroku_long.png)](https://nanospark.herokuapp.com/Apps/register)
 
-[![Heroku](https://icon-icons.com/icons2/2108/PNG/32/heroku_icon_130912.png)](https://statscalculator.herokuapp.com/calculator/)
+## Descripción 🌎
 
-## Descripción 📈
-
-La calculadora estadística nos permite calcular la media y la desviación estándar de un set de datos ingresados por el usuario.
+NanoSpark es un framework web liviano que nos permite desplegar páginas web de manera sencilla y con muy pocas lineas de código,
+además nos brinda la posibilidad de ver cualquier tipo de archivos en el navegador. 
 
 ### Ubicación
 
-La calculadora se puede encontrar en la siguiente página web: [Calculadora Estadística][statsCalculator]
+
+La página de prueba de concepto se puede encontrar en el siguiente enlace: [Calculadora Estadística][statsCalculator]
 
 ### Cómo utilizar el programa
 
@@ -37,7 +38,7 @@ Asegúrese de tener git instalado en su máquina, lo puede hacer desde la [pági
 Clone el proyecto utilizando el siguiente comando:
 
 ```
-git clone https://github.com/danielrincon-m/AREP_LAB1.git
+git clone https://github.com/danielrincon-m/AREP_LAB3.git
 ```
 
 ## Correr las pruebas unitarias 🧪

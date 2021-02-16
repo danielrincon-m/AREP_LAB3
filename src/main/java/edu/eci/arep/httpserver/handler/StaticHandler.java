@@ -11,8 +11,7 @@ public class StaticHandler implements Handler<String> {
     @Override
     public Response handle(String prefix, Request req) {
         Response res = new Response();
-        String path = (prefix + req.getRequestAttribute("GET")).substring(1);
-        System.out.println("Path: " + path);
+        String path = (prefix + req.getRequestURL()).substring(1);
         try {
             res.body(NanoSparkServer.getFile(path));
             res.status("200 OK");
